@@ -6,8 +6,7 @@ using namespace std;
 
 int main()
 {
-	int N;
-	int n;
+	int N, n;
 	cout << "Input N\n";
 	cin >> N;
 	
