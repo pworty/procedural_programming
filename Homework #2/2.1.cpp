@@ -5,10 +5,7 @@ using namespace std;
 
 int main()
 {
-	float R;
-	float r;
-	float h;
-	float l;
+	float R, r, h, l;
 	cout << "Input R, r, h\n";
 	cin >> R, r, h;
 	l = pow(pow((R - r), 2) + pow(h, 2), 0.5);
