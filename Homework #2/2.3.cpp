@@ -21,6 +21,5 @@ int main()
 
 	z = log(b - y)*pow(b - x, 0.5);
 	cout << z << "\n";
-
 	return 0;
 }
