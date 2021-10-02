@@ -7,7 +7,7 @@ int main()
 {
 	float R, r, h, l;
 	cout << "Input R, r, h\n";
-	cin >> R, r, h;
+	cin >> R >> r >> h;
 	l = pow(pow((R - r), 2) + pow(h, 2), 0.5);
 
 	if (R <= 0 or r <= 0 or r == R or r > R or h <= 0 or l <= 0){
