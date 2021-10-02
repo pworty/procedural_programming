@@ -6,10 +6,7 @@ using namespace std;
 
 int main()
 {	
-	float x;
-	float y;
-	float b;
-	float z;
+	float x, y, b, z;
 	cout << "Input x, y, b\n";
 	cin >> x, y, b;
 
