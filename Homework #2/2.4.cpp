@@ -6,11 +6,19 @@ using namespace std;
 
 int main()
 {
-	float x, y;
-	for (x = -4.0; x <=4.0; x += 0.5){
-		y = (pow(x, 2) - 2*x + 2.0)/(x - 1.0);
-		cout << y << "\t";
+	int N, n;
+	cout << "Input N\n";
+	cin >> N;
+	
+	if (int(N) == N)
+		n = N;
+	else
+		n = int(N) + 1;
+
+	for (int i = 0; i <= 10; i++){
+		cout << n;
+		n++;
 	}
-	cout << "\n";
+
 	return 0;
 }
